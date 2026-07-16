@@ -1,0 +1,19 @@
+{
+  "name": "zero-hunger-ai",
+  "version": "1.0.0",
+  "description": "An AI-Powered Smart Food Rescue and Emergency Relief Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/sanity.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
